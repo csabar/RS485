@@ -50,7 +50,9 @@ P 3300 2100
 F 0 "U1" H 3060 2550 50  0000 C CNN
 F 1 "MAX485E" H 3330 2550 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3300 1400 50  0001 C CNN
-F 3 "" H 3300 2150 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf" H 3300 2150 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/XIN-YANG-Electronic-NEW-ORIGINAL-MAX485CSA-T-MAX485CSA-MAX485-SOP-MAXIM-Free-shipping/32355724259.html" H 3300 2100 60  0001 C CNN "Aliexpress link"
+F 5 "0.60" H 3300 2100 60  0001 C CNN "Unit price $"
 	1    3300 2100
 	1    0    0    -1  
 $EndComp
@@ -62,6 +64,8 @@ F 0 "J1" H 4550 2000 50  0000 C TNN
 F 1 "Screw_Terminal_1x02" V 4400 1750 50  0000 C TNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 4550 1525 50  0001 C CNN
 F 3 "" H 4525 1750 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/50-pcs-Universal-2-54-mm-Pitch-2-Pin-3-4-5-6-7-8-9/32809307718.html" H 4550 1750 60  0001 C CNN "Aliexpress link"
+F 5 "0.20" H 4550 1750 60  0001 C CNN "Unit price $"
 	1    4550 1750
 	0    1    1    0   
 $EndComp
@@ -84,6 +88,7 @@ F 0 "JP1" H 5150 2150 50  0000 C CNN
 F 1 "Jumper" H 5150 1920 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5150 2000 50  0001 C CNN
 F 3 "" H 5150 2000 50  0001 C CNN
+F 4 "0.003" H 5150 2000 60  0001 C CNN "Unit price $"
 	1    5150 2000
 	1    0    0    -1  
 $EndComp
@@ -95,6 +100,7 @@ F 0 "R1" V 5230 2300 50  0000 C CNN
 F 1 "120R" V 5150 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5080 2300 50  0001 C CNN
 F 3 "" H 5150 2300 50  0001 C CNN
+F 4 "0.003" V 5150 2300 60  0001 C CNN "Unit price $"
 	1    5150 2300
 	0    -1   -1   0   
 $EndComp
@@ -120,6 +126,8 @@ F 0 "R2" V 2330 2000 50  0000 C CNN
 F 1 "10k0" V 2250 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2180 2000 50  0001 C CNN
 F 3 "" H 2250 2000 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/Free-shipping-Hot-sale-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-10M-ohm-1-36valuesX20pcs-720pcs/32359683117.html" V 2250 2000 60  0001 C CNN "Aliexpress link"
+F 5 "0.003" V 2250 2000 60  0001 C CNN "Unit price $"
 	1    2250 2000
 	0    1    1    0   
 $EndComp
@@ -190,6 +198,7 @@ F 0 "R6" V 3930 2000 50  0000 C CNN
 F 1 "20k" V 3850 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3780 2000 50  0001 C CNN
 F 3 "" H 3850 2000 50  0001 C CNN
+F 4 "0.003" V 3850 2000 60  0001 C CNN "Unit price $"
 	1    3850 2000
 	1    0    0    -1  
 $EndComp
@@ -220,9 +229,11 @@ L C C1
 U 1 1 59A21DBC
 P 2550 1700
 F 0 "C1" H 2575 1800 50  0000 L CNN
-F 1 "10u" H 2575 1600 50  0000 L CNN
+F 1 "10u/16V" H 2575 1600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 2588 1550 50  0001 C CNN
 F 3 "" H 2550 1700 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/Free-shipping-1206-SMD-capacitor-10UF-25V-106M-100PCS/32371669400.html" H 2550 1700 60  0001 C CNN "Aliexpress link"
+F 5 "0.02" H 2550 1700 60  0001 C CNN "Unit price $"
 	1    2550 1700
 	1    0    0    -1  
 $EndComp
@@ -231,9 +242,11 @@ L C C2
 U 1 1 59A21F55
 P 2800 1700
 F 0 "C2" H 2825 1800 50  0000 L CNN
-F 1 "100n" H 2825 1600 50  0000 L CNN
+F 1 "100n/16V" H 2825 1600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2838 1550 50  0001 C CNN
 F 3 "" H 2800 1700 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-52values-25pcs-1300pcs-1pF-1uF-Samples-kit/1727377024.html" H 2800 1700 60  0001 C CNN "Aliexpress link"
+F 5 "0.01" H 2800 1700 60  0001 C CNN "Unit price $"
 	1    2800 1700
 	1    0    0    -1  
 $EndComp
@@ -258,6 +271,8 @@ F 0 "J3" H 2150 1950 50  0000 C CNN
 F 1 "CONN_01X03" V 2250 1750 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2150 1750 50  0001 C CNN
 F 3 "" H 2150 1750 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/Hot-Sale10pcs-40-Pin-1x40-Single-Row-Male-2-54-Breakable-Pin-Header-Connector-Strip-for/32374809500.html" H 2150 1750 60  0001 C CNN "Aliexpress link"
+F 5 "0.004" H 2150 1750 60  0001 C CNN "Unit price $"
 	1    2150 1750
 	-1   0    0    -1  
 $EndComp
@@ -346,6 +361,7 @@ F 0 "JP2" H 2750 3000 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 2700 3200 50  0000 C BNN
 F 2 "Connectors:GS3" H 2700 3100 50  0001 C CNN
 F 3 "" H 2700 3100 50  0001 C CNN
+F 4 "0.00" H 2700 3100 60  0001 C CNN "Unit price $"
 	1    2700 3100
 	-1   0    0    1   
 $EndComp
@@ -367,6 +383,7 @@ F 0 "J4" H 2100 3200 50  0000 C CNN
 F 1 "CONN_01X06" V 2200 2850 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 2100 2850 50  0001 C CNN
 F 3 "" H 2100 2850 50  0001 C CNN
+F 4 "0.008" H 2100 2850 60  0001 C CNN "Unit price $"
 	1    2100 2850
 	-1   0    0    -1  
 $EndComp
@@ -383,6 +400,7 @@ F 0 "TP1" H 2400 3200 50  0000 C BNN
 F 1 "TEST" H 2400 3150 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2400 2900 50  0001 C CNN
 F 3 "" H 2400 2900 50  0001 C CNN
+F 4 "0.00" H 2400 2900 60  0001 C CNN "Unit price $"
 	1    2400 2900
 	1    0    0    -1  
 $EndComp
